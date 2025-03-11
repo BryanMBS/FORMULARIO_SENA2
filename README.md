@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-
-
 <div align="center">
   
   <img src="./src/assets/images/LOGOv2.png" alt="logo" width="250" height="250" />
@@ -35,13 +33,11 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Formulario SENA ] <a name="about-project"></a>
 
   **[Formulario SENA]**  Es un formulario que permite recopilar de los encuestados si tienen planes a futuro para la compra de un carro, la marca y si cuenta con vehiculo actualmente, es un formulario muy sencillo e interactivo para las personas.
- 
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -67,24 +63,23 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-> 
+>
 
-- [Live Demo Link](	
+- [Live Demo Link](
 https://google.com/
 )
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
 To run this project  you need the following tools:
+
 - [VS Code ]
 - [Git and GitHub ]
 - [linters ]
@@ -94,56 +89,69 @@ To run this project  you need the following tools:
 ### Setup
 
 Clone this repository to your desired folder:
+
 ```sh
  cd FORMULARIO_SENA2
  git clone 
  https://github.com/BryanMBS/FORMULARIO_SENA2.git
 ```
 
-
 ### Install
 
 Install this project with:
 
 Webhint:
+
 ```sh
      npm install --save-dev hint@7.x
 
 ```
+
 Stylelint:
+
 ```sh
      npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
 Eslint
+
 ```sh
      npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ```
+
 Webpack
+
 ```sh
      npm init -y
      npm install webpack webpack-cli --save-dev
 ```
 
 Webpack Css loader
+
 ```sh
      npm install --save-dev style-loader css-loader
 ```
+
 Webpack html loader
+
 ```sh
      npm install --save-dev html-loader
 ```
 
 Webpack html plugin
+
 ```sh
      npm install --save-dev html-webpack-plugin
 ```
 
 Webpack dev server
+
 ```sh
      npm install --save-dev webpack-dev-server
 ```
+
 Babel Dependency loader
+
 ```sh
      npm install --save-dev babel-loader
 ```
@@ -151,32 +159,39 @@ Babel Dependency loader
 ### Usage
 
 To run locally run the following command:
+
 ## Development mode
+
 ```sh
     npm run build-dev
     npm run devserver-reload    
 ```
+
 ## Production mode
+
 ```sh
    "build": "webpack --mode=production",
 "start": "node server.js"
 ```
 
-
 ### Run tests
 
 To run tests, run the following command:
 
-
 To test the Stylelint linter:
+
 ```sh
     npx stylelint "**/*.{css,scss}"
 ```
+
 To test the Webhint:
+
 ```sh
     npx hint .
 ```
+
 To test the ESLint linter:
+
 ```sh
     npx eslint .
 ```
@@ -189,15 +204,11 @@ To test the ESLint linter:
 
 BRYAN MORA
 
-
 👤 **Author1**
 
 - GitHub: [@BryanMBS](
 https://github.com/BryanMBS
 )
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,11 +216,9 @@ https://github.com/BryanMBS
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
 - [ ] **[Personalized Recommendations]**
 - [ ] **[Advanced Search Filters]**
 - [ ] **[Notifications and Reminders]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,8 +253,6 @@ I would like to thank  God for giving me the strength to carry out this project.
 
 <!-- FAQ (optional) -->
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -256,6 +263,4 @@ This project is [MIT](
 LICENSE.md
 ) licensed.
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
