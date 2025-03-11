@@ -89,7 +89,7 @@ input[type="submit"] {
   margin: auto;
   padding: auto;
   color: rgb(6, 6, 75);
-  background-color: rgb(195, 185, 174);
+  background-color: rgba(212, 218, 168, 0.889);
   border-color: rgb(0, 0, 0);
   font-weight: bolder;
 }
