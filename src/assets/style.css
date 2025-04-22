@@ -1,5 +1,5 @@
 body {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 26, 45);
   margin: 0;
 }
 
@@ -12,9 +12,6 @@ body::before {
   height: 100%;
   background-size: cover;
   z-index: -1;
-  background-image:
-    linear-gradient(115deg, rgba(54, 178, 235, 0.5), rgba(9, 86, 228, 0.5)),
-    url(./geometry-1023846_1920.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -29,7 +26,7 @@ h1 {
 }
 
 p {
-  font-family: 'Italianno', cursive;
+  font-family: 'Sans-serif', sans-serif, cursive;
   font-weight: 300;
   text-align: center;
   margin: 5px auto 50px auto;
@@ -40,7 +37,7 @@ p {
 #survey-form {
   width: 60%;
   margin: 0 auto;
-  background-color: rgba(3, 3, 17, 0.5);
+  background-color: rgb(10, 10, 63);
   padding: 2em;
   border-radius: 0.5em;
   max-width: 800px;
@@ -91,8 +88,8 @@ input[type="submit"] {
   width: 25vw;
   margin: auto;
   padding: auto;
-  color: rgb(0, 0, 0);
-  background-color: rgb(195, 185, 174);
+  color: rgb(8, 8, 96);
+  background-color: rgba(212, 218, 168, 0.889);
   border-color: rgb(0, 0, 0);
   font-weight: bolder;
 }
