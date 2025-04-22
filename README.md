@@ -164,14 +164,14 @@ To run locally run the following command:
 
 ```sh
     npm run build-dev
-    npm run devserver-reload    
+       
 ```
 
 ## Production mode
 
 ```sh
    "build": "webpack --mode=production",
-"start": "node server.js"
+   "start": "node server.js"
 ```
 
 ### Run tests
